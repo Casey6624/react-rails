@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { Route, Switch } from "react-router-dom"
 // Views
 import Home from "../views/Home"
@@ -6,7 +6,6 @@ import About from "../views/About"
 import Contact from "../views/Contact"
 
 export default function App(props) {
-    const [txt, setTxt] = useState("")
     return (
         <div>
             <Switch>
